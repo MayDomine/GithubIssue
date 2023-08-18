@@ -1,5 +1,5 @@
 name: 🛠️ Build Error
-description: Report a build error for this project
+description: Report a build error related to our toolkit.
 title: "[BUILD ERROR] <title>"
 labels: ["Build Error"]
 body:
