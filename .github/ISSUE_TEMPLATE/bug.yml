@@ -1,7 +1,7 @@
 name: 🛠️ Build Error
 description: Report a build error for this project
 title: "[BUILD ERROR] <title>"
-labels: ["Build Error", "Needs Triage"]
+labels: ["Build Error"]
 body:
 - type: checkboxes
   id: prev_issue
