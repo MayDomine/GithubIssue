@@ -88,6 +88,6 @@ body:
     label: Confirmation
     description: Please confirm that you have reviewed all of the above requirements and verified the information provided before submitting this report.
     options:
-      - I have reviewed and verified all the information provided in this report.
+      - label: I have reviewed and verified all the information provided in this report.
   validations:
     required: true
