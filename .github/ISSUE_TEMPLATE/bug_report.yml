@@ -1,6 +1,4 @@
-Certainly! Here's the YAML version of the bug report template for your PyTorch-based parallel model training toolkit:
 
-```yaml
 name: 🐞 Bug Report
 description: Report a bug/issue related to the PyTorch-based parallel model training toolkit
 title: "[BUG] <title>"
@@ -78,6 +76,3 @@ body:
       - I have reviewed and verified all the information provided in this report.
   validations:
     required: true
-```
-
-This template should be saved in your `.github/ISSUE_TEMPLATE` directory with the `.yml` extension, for example, `bug-report.yml`. Let me know if there are any other changes or details you would like to include.
