@@ -1,0 +1,57 @@
+name: Build Error Report
+
+about: Report a build error for this project
+
+labels: bug, build error
+
+template:
+  - type: textarea
+    label: Description of the Build Error
+    description: Provide a clear and concise description of what the build error is.
+    validations:
+      required: true
+  - type: textarea
+    label: To Reproduce
+    description: Describe the steps you took to trigger the build error. Include any commands you executed or files you modified.
+    validations:
+      required: true
+  - type: textarea
+    label: Expected Behavior
+    description: Provide a clear and concise description of what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    label: Screenshots
+    description: If applicable, add screenshots to help explain your problem.
+    validations:
+      required: false
+  - type: textarea
+    label: Environment Information
+    description: Provide details about your environment, including the Operating System version, GCC version, Pybind version, CUDA version, NVIDIA NCCL CU11 version, CMake version, and Pip version.
+    validations:
+      required: true
+  - type: radio
+    label: Installation Method
+    description: Please indicate if the error occurred during source code installation or when using the pip install .whl method.
+    options:
+      - Source Code Installation
+      - Pip Install .whl Method
+    validations:
+      required: true
+  - type: textarea
+    label: Full Error Traceback
+    description: Provide the complete error traceback.
+    validations:
+      required: true
+  - type: textarea
+    label: Additional Information
+    description: Provide any other relevant context or information about the problem here.
+    validations:
+      required: false
+  - type: checkbox
+    label: Confirmation
+    description: Please confirm that you have reviewed all of the above requirements and verified the information provided before submitting this report.
+    options:
+      - I have reviewed and verified all the information provided in this report.
+    validations:
+      required: true
