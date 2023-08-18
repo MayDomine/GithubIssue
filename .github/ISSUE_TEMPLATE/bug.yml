@@ -58,7 +58,7 @@ body:
     render: markdown
   validations:
     required: true
-- type: radio
+- type: dropdown
   attributes:
     label: Installation Method
     description: Please indicate if the error occurred during source code installation or when using the pip install .whl method.
